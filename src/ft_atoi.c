@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/13 15:31:24 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/03 06:51:56 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:26 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 int	ft_atoi(char **str)
 {

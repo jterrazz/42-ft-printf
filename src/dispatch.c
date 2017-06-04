@@ -6,52 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/11 17:42:36 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:52:13 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:15 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
-
-static void	set_conv_tab_next(t_conv *conv_tab)
-{
-	conv_tab[8].index = 'o';
-	conv_tab[8].fn = &render_octal;
-	conv_tab[9].index = 'O';
-	conv_tab[9].fn = &render_octal;
-	conv_tab[10].index = 'u';
-	conv_tab[10].fn = &render_unsigned;
-	conv_tab[11].index = 'U';
-	conv_tab[11].fn = &render_unsigned;
-	conv_tab[12].index = 'x';
-	conv_tab[12].fn = &render_hex;
-	conv_tab[13].index = 'X';
-	conv_tab[13].fn = &render_hex;
-	conv_tab[14].index = 'f';
-	conv_tab[14].fn = &render_double;
-	conv_tab[15].index = 'F';
-	conv_tab[15].fn = &render_double;
-}
-
-static void	set_conv_tab(t_conv *conv_tab)
-{
-	conv_tab[0].index = 's';
-	conv_tab[0].fn = &render_str;
-	conv_tab[1].index = 'c';
-	conv_tab[1].fn = &render_char;
-	conv_tab[2].index = 'S';
-	conv_tab[2].fn = &render_str;
-	conv_tab[3].index = 'C';
-	conv_tab[3].fn = &render_char;
-	conv_tab[4].index = 'p';
-	conv_tab[4].fn = &render_pointer;
-	conv_tab[5].index = 'd';
-	conv_tab[5].fn = &render_nbr;
-	conv_tab[6].index = 'D';
-	conv_tab[6].fn = &render_nbr;
-	conv_tab[7].index = 'i';
-	conv_tab[7].fn = &render_nbr;
-	set_conv_tab_next(conv_tab);
-}
+#include "ft_printf.h"
 
 static int	print_null(t_flags *flags)
 {
@@ -94,6 +53,13 @@ static void	get_str_ret(char **str_ret, va_list *va, t_flags *flags, char **str)
 		*str_ret = render_char_from_c('%');
 }
 
+static int	handle_null(char *str_ret, char buff[4096], int *i, t_flags *flags)
+{
+	if (str_ret)
+		free(str_ret);
+	return (print_buff(buff, i) + print_null(flags));
+}
+
 int			dispatch(va_list *va, char **str, char buff[4096], int *buff_i)
 {
 	t_flags	flags;
@@ -111,11 +77,7 @@ int			dispatch(va_list *va, char **str, char buff[4096], int *buff_i)
 	else
 		get_str_ret(&str_ret, va, &flags, str);
 	if (flags.null)
-	{
-		if (str_ret)
-			free(str_ret);
-		return (print_buff(buff, buff_i) + print_null(&flags));
-	}
+		return (handle_null(str_ret, buff, buff_i, &flags));
 	else if (!str_ret && (flags.conv == 'C' || flags.conv == 'S'
 	|| (flags.data_type == l && (flags.conv == 'c' || flags.conv == 's'))))
 		return (-1);

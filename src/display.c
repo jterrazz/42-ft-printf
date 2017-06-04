@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/03 06:51:18 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:08:29 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:18 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void			set_precision_number(char **str, t_flags *flags, int is_null)
 {

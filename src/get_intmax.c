@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/24 18:40:48 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:21:46 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:12 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 intmax_t	get_intmax(va_list *va, t_flags *flags)
 {

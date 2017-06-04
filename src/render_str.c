@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/04 09:20:45 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:42:11 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:38 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static char		*make_wchar_str(wchar_t *w_str, t_flags *flags)
 {

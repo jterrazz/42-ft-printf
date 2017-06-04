@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/10 15:10:06 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/05/28 02:05:37 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:35 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 20:38:18 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/05/28 03:35:07 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:06 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*ft_strsub_free(char *s, unsigned int start, size_t len)
 {

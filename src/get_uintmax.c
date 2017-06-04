@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/24 18:18:12 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:21:39 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:15 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 uintmax_t	get_uintmax(va_list *va, t_flags *flags)
 {

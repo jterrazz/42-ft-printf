@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/03 06:49:33 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:18:24 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:21 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	set_flags_to_null(t_flags *flags)
 {

@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/15 17:19:23 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:21:06 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:42 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*render_unsigned(va_list *va, t_flags *flags)
 {

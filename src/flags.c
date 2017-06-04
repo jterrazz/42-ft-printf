@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/04 09:23:15 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:23:17 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:23 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static int		set_flags_precision(t_flags *flags, char **str, va_list *va)
 {

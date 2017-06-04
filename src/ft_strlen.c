@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/10 19:39:06 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:22:42 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:00 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 size_t	ft_strlen(const char *s)
 {

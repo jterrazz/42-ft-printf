@@ -6,12 +6,12 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/10 19:39:01 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/03 06:58:28 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:54 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*ft_strdup(const char *s1)
 {

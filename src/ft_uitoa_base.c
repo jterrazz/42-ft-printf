@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/22 16:50:44 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 10:03:37 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:09 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*ft_uitoa_base(uintmax_t nb, intmax_t base, char letter)
 {

@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/04 07:55:47 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:18:29 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:18 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*render_char_from_c(char c)
 {

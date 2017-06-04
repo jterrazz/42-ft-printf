@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/01 08:56:21 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 10:23:34 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:21 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static char		*round_after(char *str, int *add)
 {

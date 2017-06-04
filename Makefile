@@ -6,7 +6,7 @@
 #    By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/12 15:20:52 by jterrazz          #+#    #+#              #
-#    Updated: 2017/06/03 06:56:27 by jterrazz         ###   ########.fr        #
+#    Updated: 2017/06/04 10:50:21 by jterrazz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRC_NAME = ft_printf.c \
 		   ft_uitoa_base.c ft_atoi.c ft_memset.c ft_strsub.c \
 		   render_octal.c render_pointer.c render_str.c render_unsigned.c \
 		   get_uintmax.c get_intmax.c display.c checker.c render_double.c \
-		   flags_init.c
+		   flags_init.c conv_init.c
 
 
 SRC = $(addprefix $(SRC_PATH)/,$(SRC_NAME))
@@ -41,7 +41,7 @@ $(NAME): $(OFILES)
 	@echo "Compilation:\033[92m OK\033[0m"
 
 %.o: $(SRC_PATH)/%.c
-	$(CC) -c $(CFLAGS) -o $@ $<
+	$(CC) -c $(CFLAGS) -o $@ $< -I includes
 
 clean:
 	@rm -rf $(OFILES)

@@ -6,7 +6,7 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/10 16:57:02 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 10:28:16 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:37:10 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ int				is_flag(char c);
 void			set_precision_number(char **str, t_flags *flags, int is_null);
 void			set_precision_str(char **str, t_flags *flags);
 int				print_buff(char buff[4096], int *i);
+void			set_conv_tab(t_conv *conv_tab);
+void			set_conv_tab_next(t_conv *conv_tab);
 
 int				ft_atoi(char **str);
 char			*ft_itoa_base(intmax_t nb, intmax_t base, char letter);

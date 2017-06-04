@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/12 13:37:55 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:18:37 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:52:26 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 char	*render_nbr(va_list *va, t_flags *flags)
 {

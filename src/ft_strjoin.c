@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/12 12:08:25 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 10:15:23 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:57 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static void		free_multiple(char *s1, char *s2, int x, int y)
 {

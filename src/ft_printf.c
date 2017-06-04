@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/10 16:54:12 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 09:23:56 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:40 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 int			print_buff(char buff[4096], int *i)
 {

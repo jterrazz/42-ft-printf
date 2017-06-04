@@ -6,12 +6,12 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/12 13:25:48 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/05/12 15:46:35 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:51:45 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 int		ft_putchar(int c)
 {

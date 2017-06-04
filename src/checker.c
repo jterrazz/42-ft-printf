@@ -6,11 +6,11 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/03 06:39:00 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/03 06:39:01 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:50:47 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 int			is_conv(char c)
 {
