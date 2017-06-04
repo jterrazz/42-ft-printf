@@ -6,7 +6,7 @@
 /*   By: jterrazz <jterrazz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/10 16:57:02 by jterrazz          #+#    #+#             */
-/*   Updated: 2017/06/04 10:24:36 by jterrazz         ###   ########.fr       */
+/*   Updated: 2017/06/04 10:28:16 by jterrazz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,6 @@ typedef struct	s_flags
 		z
 	}		data_type;
 }				t_flags;
-
-// REMOVE MAIN FILE FROM GIT
 
 typedef struct	s_conv
 {
