@@ -3,3 +3,7 @@ obj/
 a.out
 *.gch
 *.so
+
+# OS
+.DS_Store
+Thumbs.db
